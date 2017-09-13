@@ -19,7 +19,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_1;UNITY_5_6;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_1;UNITY_5_6;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -104,29 +104,29 @@
  <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
  <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
  </Reference>
- <Reference Include="QuickGraph.Silverlight.Contracts">
- <HintPath>D:/Projects/Unity/Winged Hussars/Assets/Assets/lib/sl3/CodeContracts/QuickGraph.Silverlight.Contracts.dll</HintPath>
- </Reference>
- <Reference Include="QuickGraph.Data.Contracts">
- <HintPath>D:/Projects/Unity/Winged Hussars/Assets/Assets/lib/net35/CodeContracts/QuickGraph.Data.Contracts.dll</HintPath>
- </Reference>
- <Reference Include="QuickGraph.Silverlight">
- <HintPath>D:/Projects/Unity/Winged Hussars/Assets/Assets/lib/sl3/QuickGraph.Silverlight.dll</HintPath>
- </Reference>
- <Reference Include="QuickGraph.Graphviz">
- <HintPath>D:/Projects/Unity/Winged Hussars/Assets/Assets/lib/net35/QuickGraph.Graphviz.dll</HintPath>
- </Reference>
- <Reference Include="QuickGraph.Data">
- <HintPath>D:/Projects/Unity/Winged Hussars/Assets/Assets/lib/net35/QuickGraph.Data.dll</HintPath>
- </Reference>
- <Reference Include="QuickGraph.Contracts">
- <HintPath>D:/Projects/Unity/Winged Hussars/Assets/Assets/lib/net35/CodeContracts/QuickGraph.Contracts.dll</HintPath>
- </Reference>
  <Reference Include="QuickGraph">
- <HintPath>D:/Projects/Unity/Winged Hussars/Assets/Assets/lib/net35/QuickGraph.dll</HintPath>
+ <HintPath>D:/Projects/Unity/Winged Hussars/Assets/packages/QuickGraph.3.3.51106.0/lib/net35/QuickGraph.dll</HintPath>
  </Reference>
  <Reference Include="QuickGraph.Graphviz.Contracts">
- <HintPath>D:/Projects/Unity/Winged Hussars/Assets/Assets/lib/net35/CodeContracts/QuickGraph.Graphviz.Contracts.dll</HintPath>
+ <HintPath>D:/Projects/Unity/Winged Hussars/Assets/packages/QuickGraph.3.3.51106.0/lib/net35/CodeContracts/QuickGraph.Graphviz.Contracts.dll</HintPath>
+ </Reference>
+ <Reference Include="QuickGraph.Data">
+ <HintPath>D:/Projects/Unity/Winged Hussars/Assets/packages/QuickGraph.3.3.51106.0/lib/net35/QuickGraph.Data.dll</HintPath>
+ </Reference>
+ <Reference Include="QuickGraph.Silverlight.Contracts">
+ <HintPath>D:/Projects/Unity/Winged Hussars/Assets/packages/QuickGraph.3.3.51106.0/lib/sl3/CodeContracts/QuickGraph.Silverlight.Contracts.dll</HintPath>
+ </Reference>
+ <Reference Include="QuickGraph.Data.Contracts">
+ <HintPath>D:/Projects/Unity/Winged Hussars/Assets/packages/QuickGraph.3.3.51106.0/lib/net35/CodeContracts/QuickGraph.Data.Contracts.dll</HintPath>
+ </Reference>
+ <Reference Include="QuickGraph.Contracts">
+ <HintPath>D:/Projects/Unity/Winged Hussars/Assets/packages/QuickGraph.3.3.51106.0/lib/net35/CodeContracts/QuickGraph.Contracts.dll</HintPath>
+ </Reference>
+ <Reference Include="QuickGraph.Graphviz">
+ <HintPath>D:/Projects/Unity/Winged Hussars/Assets/packages/QuickGraph.3.3.51106.0/lib/net35/QuickGraph.Graphviz.dll</HintPath>
+ </Reference>
+ <Reference Include="QuickGraph.Silverlight">
+ <HintPath>D:/Projects/Unity/Winged Hussars/Assets/packages/QuickGraph.3.3.51106.0/lib/sl3/QuickGraph.Silverlight.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
